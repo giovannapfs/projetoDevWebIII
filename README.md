@@ -1,90 +1,75 @@
 ### Fatec ZL - Centro Paula Souza
 ##### Disciplina - Programação Web III
 
-Grupo FCMMM
+Grupo FCMMM - Fale com as Minhas Mãos
 - Gabriel da Silva Oliveira dos Santos
 - Giovanna Passos Figueira da Silva
 - Karoline de Souza da Silva
 
+##### Objetivo – FCMM 
+> O objetivo da Equipe FCMM é construir uma aplicação capaz de ensinar ao usuário, de forma gamificada, o básico da linguagem de sinais a fins de expandir a comunicação para deficientes verbais e auditivos e facilitar a inclusão dos mesmos na sociedade
 
-##### Processo de Desenvolvimento de Software - PDS
-> O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade.
-##### Estudo de Caso – Sistema Integrado de Gestão
-> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar um Sistema Integrado de Gestão de Vendas e Suprimentos.
-Os seguintes requisitos foram identificados na primeira reunião com o cliente (RU – Requisito de Usuário). O resultado da análise conclui que será possível implementar
-o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo
-do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na
-programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.
+#### Utilizar os recursos ideais!
+> Uma vez que encontramos a necessidade e a carência da comunidade em meio a sociedade, será necessário aplicar o projeto de forma leve e acessível.
+Portanto, na construção do projeto a definição das ferramentas utilizadas terá que ser precisa! Desde a linguagem de programação para o front e back-end, até as API’s, integração com o banco de dados e demais informações.
+Por ser um projeto acadêmico, devemos utilizar da nossa ideia inovadora, um meio de aprendizagem para evoluirmos nossos conhecimentos, aprendendo com os erros e não os cometendo novamente.
 
-##### Product Backlog
-- RU01 - Compras - Registra e acompanha os processos de compras na organização, prevê a entrega programada de pedidos de compra
-- RU02 - Recebimento - Registra, controla e informa sobre a entrada de mercadorias e integra as informações dos dados da nota fiscal de entrada com o estoque
-- RU03 - Vendas – Registra e acompanha as vendas mantendo as informações integradas com o controle de estoque.
+#### Da onde surgiu o FCMM?
+
+> A principio a ideia foi gerada dentro de um grupo de TCC na Etec Zona Leste, a mesma ideia teve um início de desenvolvimento, mas nada muito concreto e profundo, apenas uma idéia abstrada.
+O Projeto tem um código incompleto e um protótipo pré-definido, mas com certeza está sujeito a alterações.
+Dessa forma, um dos nossos objetivos é expandir o projeto para outras universidades e empresas, pois uma das integrantes do TCC hoje é estudante da Intelli, e outro já está em uma empresa na aérea do desenvolvimento.
 
 ##### Sprint Backlog
 > Cada requisito tem um identificador único de maneira que seja possível rastrear a necessidade do cliente com a implementação do software. 
 > #### Identificador - Descrição - Prioridade
-
-- ##### REQ01
- O sistema deve permitir o usuário a realizar o cadastro no site utilizando um nome,email e senha de preferência (Média)  
-- #### REQ02 
-O sistema deve iniciar o cadastro de um novo usuário no nível 01.
-- #### REQ03 
-O sistema deve permitir que o usuário realize login e visualize as sessões do site, comoas informações sobre os desenvolvedores, tela de acessibilidade, curso, seu nome eseu nível.
-- #### REQ04
-O sistema deve liberar os capítulos do curso ao usuário de acordo com o seu nível.
-- #### REQ05 
-O sistema deve apresentar o capítulo para o usuário usando o material, referencias eum quiz de finalização.
-- #### REQ06
-O sistema deve subir o nível do usuário ao ele completar um capítulo do cursocorretamente.
-- #### REQ07
-O sistema deve validar um capítulo concluído apenas quando o usuário respondercorretamente um número específico de questões.
+>- ##### REQ01
+>O sistema deve permitir o usuário a realizar o cadastro no site utilizando um nome,email e senha de preferência (Média)  
+>- #### REQ02 
+>O sistema deve iniciar o cadastro de um novo usuário no nível 01.
+>- #### REQ03 
+>O sistema deve permitir que o usuário realize login e visualize as sessões do site, comoas informações sobre os >desenvolvedores, tela de acessibilidade, curso, seu nome eseu nível.
+>- #### REQ04
+>O sistema deve liberar os capítulos do curso ao usuário de acordo com o seu nível.
+>- #### REQ05 
+>O sistema deve apresentar o capítulo para o usuário usando o material, referencias eum quiz de finalização.
+>- #### REQ06
+>O sistema deve subir o nível do usuário ao ele completar um capítulo do cursocorretamente.
+>- #### REQ07
+>O sistema deve validar um capítulo concluído apenas quando o usuário respondercorretamente um número específico de >questões.
 
 ##### Definição de pronto
 > O sprint será considerado concluido quando:
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade
 é estabelecido pelo identificador do caso de teste.
 > 2) Depois de executado os casos de teste com 100% de satisfatorios o código deve ser armazenado no github (commit).
-##### Casos de teste
-| Identificador | Cenário de uso |
-| ------------ | ------------------------------------------------------------------------ |
-| REQ01CT01 | Dado (setup) que o CPF do cliente não está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema envia uma mensagem de cadastro realizado com sucesso |
-| REQ01CT02 | Dado (setup) que o CPF do cliente está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema rejeita e envia uma mensagem de dados inválidos |
->
-O modelo de dominio (Larman, 2006 - classes conceituais ou classes de negócio) foi definido considerando as seguintes classes:
+
+#### Linguagens Front - End
+<div style="display: inline_block"><br>
+  <img align="center" alt="HTML" height="50" width="60"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" <br>
+  <img align="center" alt="CSS" height="50" width="60"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" <br>
+  <img align="center" alt="Java Script" height="50" width="60"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" <br>
+  
+  <br>
+  
+  
+#### Linguagens Back - End
+<div style="display: inline_block"><br>
+  <img align="center" alt="Java" height="50" width="60" 
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"<br>
+  <img align="center" alt="Java" height="50" width="60" 
+src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" 
+<br>
+
+
+#### Modelo de Domínio
+> O modelo de dominio (Larman, 2006 - classes conceituais ou classes de negócio) foi definido considerando as seguintes classes:
 ![Diagrama em branco - ED02 PW (1)](https://user-images.githubusercontent.com/99614357/226621601-2bbac522-7373-4c23-afbc-e3cb5741e0aa.png)
 
-A arquitetura segue uma abordagem orientada a serviços. Os serviços foram classificados em três tipos (ERL, 2007):
-- **1. Serviços utilitários**. Implementam funcionalidades comuns a vários tipos de aplicações, como, por exemplo: log, notificação, transformação de informações. Um exemplo de serviço utilitário é um serviço de conversão de moeda que
-poderá ser acessado para calcular a conversão de uma moeda (por exemplo, dólares) para outra (por exemplo, euros).
-- **2. Serviços de entidade (serviços de negócios)**. Derivado de uma ou mais entidades de negócio (domínio), possuindo um alto grau de reutilização. Geralmente são serviços que fazem operações CRUD (Create, Read, Update e Delete).
-- **3. Serviços de tarefa (coordenação de processos-workflow)**. Tipo de serviço mais específico que possui baixo grau de reuso. Consome outros serviços para atender seus consumidores. São serviços que suportam um processo de negócios
-amplo que geralmente envolve atividades e atores diferentes. Um exemplo de serviço de coordenação em uma empresa é um serviço de pedidos em que os pedidos são feitos, os produtos são aceitos e os pagamentos são efetuados.
-A visão lógica da arquitetura para API de Cliente é apresentada na figura abaixo. A visã lógica descreve como o código está organizado, as classes os pacotes e os relacionamentos entre eles.
-![f3_visao_logica](https://user-images.githubusercontent.com/68782201/162488505-5ec27561-eb83-42dc-a05f-27760e5bb7f3.jpg)
->A entidade Cliente foi identificada como um serviço (ERL, 2007 - serviço do tipo entidade) o contrado das operações de sistema (LARMAN, 2006, pag.140) foram definidas no diagrama abaixo.
-```mermaid
-classDiagram
- class ClienteServicoI
- <<interface>> ClienteServicoI
 
- ClienteServicoI : +List<Cliente> consultaTodos()
- ClienteServicoI : +Optional<<Cliente>> consultaPorCpf(String cpf)
- ClienteServicoI : +Optional<<Cliente>> consultaPorId(Long id)
- ClienteServicoI : +Optional<<Cliente>> save(Cliente c)
- ClienteServicoI : +void delete (Long id)
- ClienteServicoI : +Optional<<Cliente>> altera (Cliente c)
-```
->O diagrama de sequência descreve como os varios componentes arquiteturais colaboram para manipular uma operação de sistema (exemplo para operação consultaTodos())
-```mermaid
-sequenceDiagram
-Usuario ->> APIClienteController: GET /api/v1/clientes
-APIClienteController ->> ClienteServiceI: consultaTodos ( )
-ClienteServiceI ->> ClienteRepository: findAll ( )
-ClienteRepository -->> ClienteServiceI: List[]
-ClienteServiceI-->> APIClienteController: List[]
-APIClienteController -->> Usuario: JSon[]
-```
 >Referencias
 - [1] KRUCHTEN, Philippe. Reference: Title: Architectural blueprints—the “4+ 1” view model of software architecture. IEEE software, v. 12, n. 6, 1995.
 - [2] RICHARDSON, Chris. Microservices patterns: with examples in Java. Simon and Schuster, 2018.
